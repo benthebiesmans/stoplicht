@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="`H.BeDnB2#0gI%g?]6pJ" x="-201" y="-145"><statement name="HANDLER"><block type="set_traffic_light_led" id="Qb?;YU{TqH6m1d)vG4rC"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_show_leds" id="N-qOt{H41`@I;%As70fm"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></statement></block><block type="device_button_event" id="D];T!c[_d_^Aq*:o{ep$" x="293" y="87"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="set_traffic_light_state" id="E+H[zpJGe{ts,6y;-JC_"><field name="lightState">Kitronik_STOPbit.LightStates.Stop</field><next><block type="set_traffic_light_led" id="|piXN+Cz@dD]RZg39G@I"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_show_leds" id="LH-n,NMXf0$jguoQgt9o"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="JOy+cQ0N`O19Q+_G$@OU" x="-231" y="476"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="set_traffic_light_state" id="I?4uxP~6@g4yBjs.[9Zc"><field name="lightState">Kitronik_STOPbit.LightStates.Stop</field><next><block type="set_traffic_light_led" id="qfs92s6=DpQO=_NjTGQg"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_show_leds" id="Hy~lUnfNgncxV3%14|y,"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></next></block></statement></block></xml>
