@@ -28,3 +28,13 @@ basic.showLeds(`
     . # . # .
     # . . . #
     `)
+basic.pause(2000)
+Kitronik_STOPbit.trafficLightState(Kitronik_STOPbit.LightStates.Stop)
+Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Green, Kitronik_STOPbit.DisplayLights.On)
+basic.showLeds(`
+    . . # . .
+    . # . . .
+    # # # # #
+    . # . . .
+    . . # . .
+    `)
